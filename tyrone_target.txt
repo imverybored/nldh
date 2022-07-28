@@ -1,0 +1,10 @@
+getgenv().Target = true -- leave this its for the future when i make a ui 
+getgenv().Key = Enum.KeyCode.C
+getgenv().Prediction = 0.125
+getgenv().sendinchat = true -- sends who u are locked on to in chat 🙂
+getgenv().notification = true -- notificiation mode
+getgenv().showdot = true
+getgenv().airshotfunction = true -- idk if u want to use this (use if u want)
+getgenv().part = "HumanoidRootPart" -- part (self explanitory)
+getgenv().AutoPrediction = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vacspree/Official-Repo/main/tyronetarget"))()
